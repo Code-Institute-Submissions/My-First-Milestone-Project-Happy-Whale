@@ -1,5 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
 body {
     font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -10,7 +22,7 @@ body {
 
 }
 .header .navbar-light {
-    background-color:#F0FFFF;
+    background-color:red;
 }
 .navbar-toggler-icon {
     color: white;
@@ -23,7 +35,8 @@ li {
     margin: auto;
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
-    
+    font-size: 200%;
+
 
 }
 .nav-link{
@@ -40,30 +53,87 @@ height: 300px;
 }
 
 
- 
  .nav-brand img{
      width: 40%;
      height: 40%;
      border-radius: 50%;
-     max-height: 400px;
+     
  }
 
+.carousel-inner{
+    max-height: 1080px;
+    max-width: 1200px;
+    margin: auto;
+   
+
+
+}
 .main-section-2 {
     text-align: center;
 }
+ 
 
-.footer-container h3 {
+.footer-container h2 {
     font-family: 'Amatic SC', cursive; 
-    
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-container {
     background-color: #F0FFFF;
-    
-
+    height: 200px;  
+    margin-top: auto;
 }
 
+.footer {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    
+    
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+.footer-section a {
+    color: #696969;
+    font-size: 150%;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    color: #FFB6C1;
+    transition: 0.25s ease-out;
+}
 
 #email-submit {
    font-family: 'Amatic SC', cursive;  
+   font-size: 120%;
+   height: 45px;
+    width: 90px;
+    background-color: #B8B8B8;
+    border: none;
+    margin-left: 0px;
+}
+
+
+#footer-email {
+    width: 250px;
+    height: 45px;   
+    font-size: 20px;
+    padding-left: 5px;
+    color: #696969;
+    margin-top: 10px;
+}
+#footer-email::placeholder {
+    color: #D3D3D3;
+}
+
+
+#email-submit:hover {
+    background-color: #FFB6C1;
+    transition: 0.25s linear;
 }
