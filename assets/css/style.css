@@ -1,7 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
 
-ul{
+#header {
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+
+}
+.header .navbar-light {
+    background-color:#F0FFFF;
+}
+.navbar-toggler-icon {
+    color: white;
+}
+ul {
     list-style: none;}
 
 li {
@@ -14,4 +28,42 @@ li {
 }
 .nav-link{
     color: #696969;
+}
+
+.nav-brand {
+position:absolute;
+left: 50%;
+transform: translateX(-10%);
+top: 0;
+width: 300px;
+height: 300px;
+}
+
+
+ 
+ .nav-brand img{
+     width: 40%;
+     height: 40%;
+     border-radius: 50%;
+     max-height: 400px;
+ }
+
+.main-section-2 {
+    text-align: center;
+}
+
+.footer-container h3 {
+    font-family: 'Amatic SC', cursive; 
+    
+}
+
+.footer-container {
+    background-color: #F0FFFF;
+    
+
+}
+
+
+#email-submit {
+   font-family: 'Amatic SC', cursive;  
 }
