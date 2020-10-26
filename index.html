@@ -33,7 +33,7 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -74,16 +74,13 @@
             </button>
           </div>
           <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="nav navbar-nav flex-column flex-lg-row">
+            <ul class="nav-left navbar-nav nav-fill flex-column flex-lg-row">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-igloo"></i>Home</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Our Mission</a>
-              </li>
-            </ul>
 
-            <ul class="nav navbar-nav flex-column flex-lg-row">
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -92,18 +89,30 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  >Shop</a
+                  ><i class="fas fa-baby"></i>Shop</a
                 >
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Laggings</a>
+                  <a class="dropdown-item" href="#">Leggings</a>
                   <a class="dropdown-item" href="#">Rompers</a>
                   <a class="dropdown-item" href="#">Shorts</a>
                   <a class="dropdown-item" href="#">Short Rompers</a>
                   <a class="dropdown-item" href="#">Accessories</a>
                 </div>
               </li>
+            </ul>
+
+            <ul
+              class="nav-right navbar-nav nav-fill ml-auto flex-column flex-lg-row"
+            >
               <li class="nav-item">
-                <a class="nav-link" href="#">Info</a>
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-camera-retro"></i>Gallery</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-address-book"></i>Info</a
+                >
               </li>
             </ul>
           </div>
@@ -188,6 +197,7 @@
       </div>
 
       <div class="main-section-2">
+        <h1>Our Storys</h1>
         <p>
           Established in 2018 and run by identical twins Emily and Victoria
           Bradley. Happy Whale is a small UK business which specialises in
@@ -197,14 +207,15 @@
           we understand the need for durable clothes that are also stylish too.
           We use only the highest quality fabrics which are incredibly kind and
           comfortable for babies and toddlers. All of our clothing is machine
-          washable. Our recent travels motivated us to create a company that not
+          washable. 
+          <p>Our recent travels motivated us to create a company that not
           only makes contemporary, ethical clothing but will help towards saving
           our precious planet too. Plastic pollution in the world’s oceans is
           one of the biggest environmental issues of our time. Therefore, for
           every sale a donation will be made to the Marine Conservation Society,
           helping to keep our marine animals and whales happy for the
           foreseeable future. We really hope you like what we do as much as we
-          enjoy making it. x
+          enjoy making it. x</p>
         </p>
       </div>
     </main>
@@ -214,27 +225,36 @@
       <div class="footer">
         <div class="footer-section footer-1">
           <h2>About Us</h2>
-            <a href="#">Our Mission</a>
-            <a href="#">Shop</a>
-            <a href="#">Reviews</a>
+          <a href="#">Our Mission</a>
+          <a href="#">Shop</a>
+          <a href="#">Reviews</a>
         </div>
         <div class="footer-section footer-2">
           <h2>Customer Info</h2>
-            <a href="#">Shipping and Return Policy</a>
-            <a href="#">Privicy Policy</a>
-            <a href="#">Contact Us</a>
+          <a href="#">Shipping and Return Policy</a>
+          <a href="#">Privicy Policy</a>
+          <a href="#">Contact Us</a>
         </div>
         <div class="footer-signup-emil">
           <h2>Sign Up for Our Newsletter</h2>
-            <input
-                type="email"
-                placeholder="Enter your email address"
-                id="footer-email"
-            />
-            <input type="submit" value="Sign Up" id="email-submit" />
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            id="footer-email"
+          />
+          <input type="submit" value="Sign Up" id="email-submit" />
+        </div>
+        <div class="social-media">
+          <h2>Follow Us:</h2>
+          <div class="socialmedia-icons">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram-square"></i>
+        </div>
         </div>
       </div>
-      
+      <div class="footer-copyright">
+        @ Copyright 2020: happywhaleclothing.com
+      </div>
     </footer>
   </body>
 </html>
