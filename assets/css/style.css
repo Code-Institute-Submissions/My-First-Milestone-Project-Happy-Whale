@@ -43,7 +43,7 @@ h2, h1 {
     line-height: 60px;
     margin-top: 0;
     border-block-end-style: solid;
-    border-bottom-color: #696966; 
+    border-bottom-color: lightgray; 
     border-bottom-width: 1px;
 
 }
@@ -137,7 +137,7 @@ text-align: center;
 .shop-alert-content {
 border-bottom-style: solid;
 border-bottom-width: 1.5px;
-border-bottom-color: #696966;
+border-bottom-color: lightgrey;
 padding-left: 30px;
 padding-right: 30px;
 }
