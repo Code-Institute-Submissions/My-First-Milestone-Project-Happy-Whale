@@ -146,7 +146,7 @@ padding-right: 30px;
     max-width: 180px;
     height: auto;
     align-items: center;
-    margin-top: 
+    
 }
 
 div.col-12-copy-container:hover{
@@ -175,7 +175,8 @@ div.col-12-copy-container:hover{
  .bg-image {
      background-size: cover;
      background-repeat: no-repeat;
-     height: 850px;
+     height: auto;
+     max-width: 100%;
      position: relative;
  }
 
