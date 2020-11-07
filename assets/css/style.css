@@ -143,10 +143,8 @@ padding-right: 30px;
 }
 
 .shop-banner img {
-    max-width: 180px;
     height: auto;
     align-items: center;
-    
 }
 
 div.col-12-copy-container:hover{
@@ -168,7 +166,7 @@ div.col-12-copy-container:hover{
 }
 .main-section-2 {
     text-align: center;
-   
+ 
 }
 
 
@@ -214,6 +212,22 @@ div.col-12-copy-container:hover{
      
  }
 
+
+.shopitems-container {
+    display:flex;
+    max-width: 100%;
+    justify-content: space-around;
+    padding: 0;
+   
+}
+
+
+
+.shopitems-polaroid img {
+    max-width: 160px;
+    height: auto;
+    align-items: center;
+}
 
 
 
@@ -309,3 +323,21 @@ div.col-12-copy-container:hover{
    text-align: right;
   padding-right: 10px;
 }
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+
+
+
+}
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+
+}
+ 
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+ }
+ 
+@media all and (max-width: 480px) {
+
+ }
