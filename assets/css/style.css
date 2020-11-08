@@ -64,7 +64,7 @@ h2, h1 {
     }
     
 
- li {
+ .navbar-collapse li {
     display: inline-block;
     margin: auto;
     font-family: 'Amatic SC', cursive;
@@ -169,6 +169,9 @@ div.col-12-copy-container:hover{
  
 }
 
+.bg-text {
+    padding-bottom: 20px;
+}
 
  .bg-image {
      background-size: cover;
@@ -194,17 +197,18 @@ div.col-12-copy-container:hover{
      height: 100%;
      top:0;
      left: 0;
-    background-color: rgba(0, 0, 0, 0.2) ;
+    background-color: rgba(0, 0, 0, 0.4) ;
     
 
  }
- .bg-text h1 {
+ .main-section-2 h1 {
      
      font-weight: 700;
      letter-spacing: 4px;
      color: #fffae6;
      padding-top: 20px;
-    text-align: center;
+     margin-right: auto;
+     margin-left: auto;
  }
  .main-section-2 h1::after {
      content: "";
@@ -217,9 +221,10 @@ div.col-12-copy-container:hover{
  }
  .main-section-2 p {
      font-size: 150%;
-     letter-spacing: 1px;
+     letter-spacing: 2px;
      color: #fffae6;
-     
+     line-height: 1.7;
+     word-spacing: 2px;
  }
 
 
@@ -251,15 +256,21 @@ div.col-12-copy-container:hover{
 
 .footer-container {
     background-color: #ffdb4d;
-    height: 200px;  
+    height: auto;  
     margin-top: auto;
 }
 
 .footer {
     display: flex;
     justify-content: space-around;  
+    flex-wrap: wrap;
 }
 
+.footer-section-container {
+    display: flex;
+    flex-direction: column;
+    
+}
 .footer-section {
     display: flex;
     flex-direction: column;
@@ -336,18 +347,19 @@ div.col-12-copy-container:hover{
 
 @media all and (min-width: 1024px) and (max-width: 1280px) { 
 
-
-
 }
+
  
 @media all and (min-width: 768px) and (max-width: 1024px) { 
 
 }
  
-@media all and (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 768px) {
 
- }
+
+}
+
  
-@media all and (max-width: 480px) {
+@media (max-width: 480px) {
 
  }
