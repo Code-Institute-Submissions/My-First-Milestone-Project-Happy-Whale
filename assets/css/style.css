@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 }
 
-h2, h1 {
+h2, h1, h3{
     font-family: 'Amatic SC', cursive;
 }
 .navalert-container {
@@ -242,6 +242,19 @@ div.col-12-copy-container:hover{
    
 }
 
+.main-shop h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.main-shop h1::after {
+     content: "";
+     display: block;
+     margin: 0 auto;
+     width: 70%;
+     padding-top: 10px;
+     border-bottom: 2px solid #696969; }
 
 
 .shopitems-polaroid img {
