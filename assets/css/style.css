@@ -24,6 +24,12 @@ h2, h1 {
     background-color: #ffdb4d;
 
 }
+
+.navalert-container .row, .col-12 {
+    margin: 0;
+    padding: 0;
+}
+
 .site-wide-alert {
     background: transparent;
     margin: 0;
@@ -31,7 +37,7 @@ h2, h1 {
 
 .site-wide-alert h5 {
     color: #ff471a;
-    font-size: 140%;
+    
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 0;
@@ -260,6 +266,14 @@ div.col-12-copy-container:hover{
     margin-top: auto;
 }
 
+
+.footer-small {
+    display: flex;
+    justify-content: space-around;  
+    flex-wrap: wrap;
+}
+
+
 .footer {
     display: flex;
     justify-content: space-around;  
@@ -271,16 +285,37 @@ div.col-12-copy-container:hover{
     flex-direction: column;
     
 }
+
+.footer-small-section {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer-section {
     display: flex;
     flex-direction: column;
 }
+
+.footer-small a {
+    color: #696969;
+    font-size: 150%;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
 .footer-section a {
     color: #696969;
     font-size: 150%;
     margin-bottom: 10px;
     text-decoration: none;
 }
+
+.footer-small a:hover {
+   color: #FFB6C1;
+    transition: 0.25s ease-out;
+    transform: scale(1.2);
+}
+
 .footer-section a:hover {
    color: #FFB6C1;
     transition: 0.25s ease-out;
@@ -345,7 +380,10 @@ div.col-12-copy-container:hover{
   padding-right: 10px;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px) { 
+@media all and (max-width: 1280px) { 
+.site-wide-alert h5 {
+font-size: 1.37vw;
+}
 
 }
 
@@ -354,12 +392,58 @@ div.col-12-copy-container:hover{
 
 }
  
-@media (min-width: 480px) and (max-width: 768px) {
+@media all and (max-width: 768px) {
+.ml-auto, .mx-auto {
+    margin-left: 0!important;
 
+}
+.main-section-2 h1 {
+    font-size: 5.7vw; }
+
+ .main-section-2 p {
+    font-size: 3vw;
+    }   
+.footer-container h2 {
+    font-size: 3.5vw;
+}
+
+.footer-container a {
+    font-size: 2.5vw;
+}
+.footer-container i {
+    font-size: 5vw;
+}
+.footer-copyright {
+    font-size: 2vw;
+}
 
 }
 
  
 @media (max-width: 480px) {
+.shop-alert-content h1 {
+    font-size: 8vw;
+}
+.main-section-2 h1 {
+    font-size: 8vw;
+}
+.main-section-2 p {
+    font-size: 4vw;
+    line-height: 1.4;
+}
+.footer-container h2 {
+    font-size: 6vw;
+}
 
+.footer-container a {
+    font-size: 4vw;
+}
+.footer-container i {
+    font-size: 7vw;
  }
+
+ .footer-copyright {
+    font-size: 3vw;
+}
+
+}
