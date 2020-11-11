@@ -271,7 +271,7 @@ div.col-12-copy-container:hover{
     max-width: 1300px;
     max-height: 600px;
     margin:auto;
-    background-color: #6A8455;
+    background-color: rgb(199, 207, 191);
     
 }
 .top-shopimage {
@@ -281,7 +281,7 @@ div.col-12-copy-container:hover{
     max-height: 600px;
 }
 .shopitems-polaroid img {
-    max-width: 200px;
+    max-width: 260px;
     height: auto;
    
 }
@@ -306,7 +306,19 @@ div.col-12-copy-container:hover{
 .shop-form input  {
     min-width: 130px;
     width: 40vw;
-    max-width: 200px;
+    max-width: 260px;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    margin: 5px 0 10px;
+    box-sizing: border-box;
+    background-color: #ffdb4d;
+    border-radius: 0;
+    border-style: none;
+    font-size: x-large;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #696966;
+
 }
 .footer-container h2 {
     
@@ -441,6 +453,7 @@ div.col-12-copy-container:hover{
 font-size: 1.37vw;
 }
 
+
 }
 
  
@@ -471,7 +484,15 @@ font-size: 1.37vw;
 
  .main-section-2 p {
     font-size: 3vw;
-    }   
+
+    }
+
+.shop-form input {
+    letter-spacing: 2.5px;
+    font-size: large;
+    font-weight: 500;
+    }
+
 .footer-container h2 {
     font-size: 3.5vw;
 }
