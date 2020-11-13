@@ -320,6 +320,17 @@ div.col-12-copy-container:hover{
     color: #696966;
 
 }
+
+.christmas-banner .jumbotron {
+    padding: 100px 50px;
+    background-image: url(../images/shoppage/xmas.png);
+    background-size: 100%;
+    }
+
+.christmas-banner .jumbotron::after {
+    height: 100%;
+    
+}
 .footer-container h2 {
     
     font-weight: 700;
