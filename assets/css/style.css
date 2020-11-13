@@ -323,13 +323,18 @@ div.col-12-copy-container:hover{
 
 .christmas-banner .jumbotron {
     padding: 100px 50px;
-    background-image: url(../images/shoppage/xmas.png);
-    background-size: 100%;
+    background-image: url(../images/shoppage/stars.png);
+    background-size: cover;
+    
     }
 
-.christmas-banner .jumbotron::after {
-    height: 100%;
+.chriastmas-text {
+    color: 	#E40A2D;
     
+}
+
+.chriastmas-text h3 {
+
 }
 .footer-container h2 {
     
