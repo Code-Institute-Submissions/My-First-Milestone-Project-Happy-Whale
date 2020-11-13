@@ -333,9 +333,11 @@ div.col-12-copy-container:hover{
     
 }
 
-.chriastmas-text h3 {
 
+.gallery img {
+    width: 300px;
 }
+
 .footer-container h2 {
     
     font-weight: 700;
