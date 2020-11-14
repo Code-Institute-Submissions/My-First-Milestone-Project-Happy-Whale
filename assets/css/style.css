@@ -338,6 +338,21 @@ div.col-12-copy-container:hover{
     width: 300px;
 }
 
+.contact-container {
+    background: linear-gradient(
+        to right,
+        rgba(250, 114, 104, 0.5) 65%,
+        rgba(250, 161, 47, 0.5) 35%
+    );
+}
+
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+
 .footer-container h2 {
     
     font-weight: 700;
@@ -462,8 +477,8 @@ div.col-12-copy-container:hover{
     position: absolute;
     bottom: 0px;
     width: 100%;
-   text-align: right;
-  padding-right: 10px;
+   text-align: center;
+  
 }
 
 @media all and (max-width: 1280px) { 
@@ -555,6 +570,7 @@ font-size: 1.37vw;
 
  .footer-copyright {
     font-size: 3vw;
+
 }
 
 }
