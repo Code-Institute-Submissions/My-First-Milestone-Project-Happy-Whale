@@ -41,8 +41,12 @@
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-Q82fYEzhmr5mZgE2mfq92kkxrr8VBNw&callback=initMap&libraries=&v=weekly"
+      defer></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   </head>
+  <script src="assets/javascript/index.js"></script>
   <!-- NavigationHearder -->
 
   <body>
@@ -129,11 +133,54 @@
       </nav>
     </div>
 
-    <main>
-      <div class="contact-info"></div>
-      <div class="order-return"></div>
-      <div class="privicy-policy"></div>
-      <div class="terms-conditions"></div>
+    <main class="info-container">
+      <div class="contact-info">
+      <h1>get in touch</h1>
+      shop
+      phone number
+      email
+      social media
+    <div class="container-fluid">
+    <div class="mm-container col-12">
+   <div class="message-section col-md-6 col-12">
+   <h3>Leave us a message </h3>
+   <form>
+  <div class="form-group">
+    <label for="emailMessageUsForm">Email address</label>
+    <input type="email" class="form-control" id="emailMessageUsForm" placeholder="Enter your email address">
+  </div>
+  <div class="form-group">
+    <label for="nameMessageUsForm">Name</label>
+    <input type="text" class="form-control" id="nameMessageUsForm" placeholder="Full Name ">
+  </div>
+  <div class="form-group">
+    <label for="textareaMessageUsForm">Example textarea</label>
+    <textarea class="form-control" id="textareaMessageUsForm" rows="3" placeholder="Type yor message"></textarea>
+  </div>
+  <div>
+      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </div>
+</form>
+   </div> 
+<div class="map-section col-md-6 col-12">
+      <h3>Find Us</h3>
+      <div id="map"></div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="order-return">
+      size guid
+      shipping and return
+      </div>
+      <div class="privicy-policy">
+      privicy policy 
+      read more 
+      </div>
+      <div class="terms-conditions">
+      terms and cinditions 
+      read more 
+      </div>
     </main>
 
    <footer>
