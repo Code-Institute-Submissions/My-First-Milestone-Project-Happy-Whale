@@ -191,7 +191,7 @@ div.col-12-copy-container:hover{
  }
 
  .bg-image:nth-child(1) {
-    background-image: url("../images/homepage/whaletail.png");
+    background-image: url("https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605456935/Rest%20of%20the%20site/whaletail_vpzzwy.png");
     background-position: center;
  }
 .bg-image > *{
