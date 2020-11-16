@@ -235,7 +235,9 @@ div.col-12-copy-container:hover{
      line-height: 1.7;
      word-spacing: 2px;
  }
-
+.card-container {
+    max-width: 1500px;
+}
 
 
 .shopitems-container {
@@ -274,6 +276,7 @@ div.col-12-copy-container:hover{
     background-color: #ffb48f;
     
 }
+
 .top-shopimage {
     padding: 0;
 }
@@ -339,9 +342,7 @@ div.col-12-copy-container:hover{
 }
 
 .contact-container {
-    
-    background-image: url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605476247/Rest%20of%20the%20site/Screenshot_2020-11-10_at_22.50.07_qtr3uw.png);
-    background-size: cover;
+    background-color: #ffdb4d;
     opacity: 0.9;
     padding: 35px 25px;
 }
@@ -350,10 +351,32 @@ div.col-12-copy-container:hover{
      border-radius: 0;
      margin: 0;
      padding: 15px 10px;
+     
+ }
+ .contact-banner {
+     display: flex;
  }
 
-.jumbotron h1 {
+ .contact-container .jumbotron h1{
+    letter-spacing: 4px;
     text-align: center;
+}
+
+.contact-container .jumbotron h1::after {
+     content: "";
+     display: block;
+     margin: 0 auto;
+     width: 70%;
+     padding-top: 10px;
+     border-bottom: 2px solid #696969;
+}
+
+.info-container h3 {
+    letter-spacing: 3px;
+}
+
+.contact-row {
+    display: flex;
 }
 
 .contact-row .col-md-3 {
@@ -366,10 +389,13 @@ div.col-12-copy-container:hover{
     padding: 30px;
     color: #ddebe4;
     font-size: 150%;
+
 }
 
  .mm-container {
      display: flex; 
+     margin: auto;
+     max-width: 1300px;
  }
 
  .message-section, .map-section {
@@ -398,12 +424,10 @@ tr {
 }
 
 tr:nth-child(odd) {
-    background-color: #FFEDA6;
+    background-color:#D8D8D8;
 
 }
  
-
-
 tr:first-child th{
   background-color: 	#b6c196;
   font-family: 'Amatic SC', cursive;
@@ -415,6 +439,52 @@ th {
 
 td {
     padding: 19px;
+}
+
+
+.shipping-container {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ),
+    url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605476247/Rest%20of%20the%20site/Screenshot_2020-11-10_at_22.50.07_qtr3uw.png);
+    background-size: cover;
+    margin-top: 30px;
+    height: auto;
+    max-width: 1300px;
+
+}
+
+.shipping-container h3 {
+     
+     font-weight: 700;
+     letter-spacing: 4px;
+     color: #fffae6;
+     padding-top: 20px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ .shipping-container h3::after {
+     content: "";
+     display: block;
+     margin: 0 auto;
+     width: 50%;
+     padding-top: 10px;
+     border-bottom: 2px solid #fffae6;
+
+ }
+
+.shipping-container p{
+    font-size: 150%;
+     letter-spacing: 2px;
+     color: #fffae6;
+     line-height: 1.7;
+     word-spacing: 2px;
+}
+
+.shipping-row {
+    margin: 0;
+    text-align: center;
 }
 
 .footer-container h2 {
