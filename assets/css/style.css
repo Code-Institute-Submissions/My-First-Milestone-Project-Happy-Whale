@@ -37,7 +37,6 @@ h2, h1, h3{
 
 .site-wide-alert h5 {
     color: #ff471a;
-    
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 0;
@@ -261,9 +260,14 @@ div.col-12-copy-container:hover{
 }
 
 .card-container .card {
-    max-width: 300px;
+    max-width: 350px;
+    border-radius: 0;
+    border: 1px solid #ff6f61;
 }
 
+.card-row {
+    justify-content: center;
+}
 .btn-primary {
     width: 100%;
     background-color: #8a9a5b;
@@ -364,7 +368,7 @@ div.col-12-copy-container:hover{
 
 .chriastmas-text {
     color: 	#ff0000;
-    font-size: 4vw;
+    font-size: 25px;
 }
 
 
@@ -510,13 +514,32 @@ td {
      letter-spacing: 2px;
      color: #fffae6;
      line-height: 1.7;
-     word-spacing: 2px;
+     border-bottom: 2px solid #696969;
+     word-spacing: 2px ;
 }
 
 .shipping-row {
     margin: 0;
     text-align: center;
 }
+
+.order-return h3 {
+     font-weight: 700;
+     letter-spacing: 4px;
+     color: #696969;
+     padding-top: 20px;
+     margin-right: auto;
+     margin-left: auto;
+     text-align: center;
+ }
+ .order-return h3::after {
+     content: "";
+     display: block;
+     margin: 0 auto;
+     width: 50%;
+     padding-top: 10px;
+     border-bottom: 2px solid #696969;
+     }
 
 .footer-container h2 {
     
