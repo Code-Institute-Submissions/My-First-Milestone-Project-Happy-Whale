@@ -271,7 +271,7 @@ div.col-12-copy-container:hover{
     max-width: 1300px;
     max-height: 600px;
     margin:auto;
-    background-color: rgb(199, 207, 191);
+    background-color: #ffb48f;
     
 }
 .top-shopimage {
@@ -311,26 +311,26 @@ div.col-12-copy-container:hover{
     font-family: 'Amatic SC', cursive;
     margin: 5px 0 10px;
     box-sizing: border-box;
-    background-color: #ffdb4d;
+    background-color: #8a9a5b;
     border-radius: 0;
     border-style: none;
     font-size: x-large;
     letter-spacing: 3px;
     font-weight: 700;
-    color: #696966;
+    color: #ddebe4;
 
 }
 
 .christmas-banner .jumbotron {
     padding: 100px 50px;
-    background-image: url(../images/shoppage/stars.png);
+    background-image: url(http://res.cloudinary.com/dbwtdwgnt/image/upload/e_blur:392,o_83/v1605464797/dresses/annie-spratt-X4l3CjcDvic-unsplash_khi1zk.jpg);
     background-size: cover;
     
     }
 
 .chriastmas-text {
-    color: 	#E40A2D;
-    
+    color: 	#ff0000;
+    font-size: 4vw;
 }
 
 
@@ -339,12 +339,42 @@ div.col-12-copy-container:hover{
 }
 
 .contact-container {
-    background: linear-gradient(
-        to right,
-        rgba(250, 114, 104, 0.5) 65%,
-        rgba(250, 161, 47, 0.5) 35%
-    );
+    
+    background-image: url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605476247/Rest%20of%20the%20site/Screenshot_2020-11-10_at_22.50.07_qtr3uw.png);
+    background-size: cover;
+    opacity: 0.9;
+    padding: 35px 25px;
 }
+ .contact-container .jumbotron {
+     background-color: white;
+     border-radius: 0;
+     margin: 0;
+     padding: 15px 10px;
+ }
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+.contact-row .col-md-3 {
+    text-align: center;
+}
+
+.contact-row #headIcon {
+    border-radius: 50%;
+    background-color: #8a9a5b;
+    padding: 30px;
+    color: #ddebe4;
+    font-size: 150%;
+}
+
+ .mm-container {
+     display: flex; 
+ }
+
+ .message-section, .map-section {
+     padding: 0 15px;
+ }
 
 
 #map {
@@ -352,6 +382,40 @@ div.col-12-copy-container:hover{
     height: 300px;
 }
 
+
+table {
+    margin: auto;
+    box-sizing: border-box;
+    display: table;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+tr {
+    display: table-row;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFEDA6;
+
+}
+ 
+
+
+tr:first-child th{
+  background-color: 	#b6c196;
+  font-family: 'Amatic SC', cursive;
+}
+
+th {
+    padding: 19px;
+}
+
+td {
+    padding: 19px;
+}
 
 .footer-container h2 {
     
