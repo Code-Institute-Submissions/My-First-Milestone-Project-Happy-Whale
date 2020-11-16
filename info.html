@@ -48,7 +48,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   </head>
   <script src="assets/javascript/index.js"></script>
-  <!-- NavigationHearder -->
+ 
 
   <body>
     <div class="container-fluid navalert-container">
@@ -142,23 +142,23 @@
           <div class="jumbotron">
             <h1>get in touch</h1>
             <div class="row contact-row">
-              <div class="col-3">
-                <i class="fas fa-map-marker-alt"></i>
+              <div class="col-md-3">
+                <i class="fas fa-map-marker-alt" id="headIcon"></i>
                 <h3>Workshop</h3>
                 <p>123 Whale Street <br />Bristol<br />BS1 2HW</p>
               </div>
-              <div class="col-3">
-                <i class="fas fa-phone-alt"></i>
+              <div class="col-md-3">
+                <i class="fas fa-phone-alt" id="headIcon"></i>
                 <h3>Phone</h3>
                 <p>071 232 32 32</p>
               </div>
-              <div class="col-3">
-                <i class="fas fa-envelope"></i>
+              <div class="col-md-3">
+                <i class="fas fa-envelope" id="headIcon"></i>
                 <h3>Email</h3>
                 <p>happywhaleclothing@gmail.com</p>
               </div>
-              <div class="col-3">
-                <i class="fas fa-user-plus"></i>
+              <div class="col-md-3">
+                <i class="fas fa-user-plus" id="headIcon"></i>
                 <h3>social media</h3>
                 <a
                   href="https://www.facebook.com/happywhaleclothing/"
@@ -169,7 +169,7 @@
                 <a
                   href="https://www.instagram.com/happywhaleclothing/?hl=en"
                   target="_blank"
-                  ><i class="fab fa-instagram-square"></i>
+                  ><i class="fab fa-instagram-square" ></i>
                   @happywhaleclothing</a
                 >
               </div>
@@ -177,7 +177,8 @@
           </div>
         </div>
         <div class="container-fluid">
-          <div class="mm-container col-12">
+          <div class="mm-container ">
+          <div class="row col-12">
             <div class="message-section col-md-6 col-12">
               <h3>Leave us a message</h3>
               <form>
@@ -221,14 +222,15 @@
             </div>
           </div>
         </div>
+        </div>
       </div>
       <div class="order-return">
         <h3>size guid</h3>
-        <table>
-          <tr>
-            <th>Age</th>
-            <th>Height</th>
-            <th>Chest</th>
+        <table class="container size-guid">
+          <tr class="guid-head">
+            <th><h4>Age</h4></th>
+            <th><h4>Height</h4></th>
+            <th><h4>Chest</h4></th>
           </tr>
           <tr>
             <th>0-3 Months</th>
