@@ -235,10 +235,41 @@ div.col-12-copy-container:hover{
      line-height: 1.7;
      word-spacing: 2px;
  }
-.card-container {
-    max-width: 1500px;
+
+ #our-service {
+     justify-content: center;
+ }
+.our-service-content h1 {
+     letter-spacing: 4px;
+     padding-top: 20px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+.our-service-content h1::after {
+     content: "";
+     display: block;
+     margin: 0 auto;
+     width: 50%;
+     padding-top: 10px;
+     border-bottom: 2px solid #696969;
 }
 
+.card-container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+}
+
+.card-container .card {
+    max-width: 300px;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #8a9a5b;
+    border: none;
+    border-radius: 0;
+}
 
 .shopitems-container {
     display:flex;
