@@ -1,3 +1,6 @@
+
+/* | | ----------------------------BODY -----------------------------  */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,9 +19,13 @@ body {
 
 h2,
 h1,
-h3 {
+h3,
+h4 {
     font-family: "Amatic SC", cursive;
 }
+
+/* | | ---------------------------- HEADER -----------------------------  */
+
 .navalert-container {
     padding: 0;
     margin: 0;
@@ -96,6 +103,8 @@ ul {
     border-radius: 50%;
 }
 
+/* | | ---------------------------- HOME PAGE -----------------------------  */
+
 .dropdown-menu .show {
     box-sizing: content-box;
     display: inline-block;
@@ -148,7 +157,7 @@ ul {
     align-items: center;
 }
 
-div.col-12-copy-container:hover {
+.shop-banner .col-12-copy-container:hover {
     background-color: lightgrey;
 }
 
@@ -262,6 +271,8 @@ div.col-12-copy-container:hover {
     border-radius: 0;
 }
 
+/* | | ---------------------------- SHOP PAGE -----------------------------  */
+
 .shopitems-container {
     display: flex;
     max-width: 100%;
@@ -294,7 +305,21 @@ div.col-12-copy-container:hover {
     max-width: 1300px;
     max-height: 600px;
     margin: auto;
-    background-color: #ffb48f;
+    background-image: linear-gradient(
+        to right, rgb(204,128,128), rgb(243,226,226)
+    ) ;
+}
+.review-paragraph{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10%;
+}
+.shopitems-size:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.shopitems-size:hover input {
+    background-color: #cc8080;
 }
 
 .top-shopimage {
@@ -344,9 +369,11 @@ div.col-12-copy-container:hover {
 
 .christmas-banner .jumbotron {
     padding: 100px 50px;
-    background-image: url(http://res.cloudinary.com/dbwtdwgnt/image/upload/e_blur:392, o_83/v1605464797/dresses/annie-spratt-X4l3CjcDvic-unsplash_khi1zk.jpg);
+    background-image: url(http://res.cloudinary.com/dbwtdwgnt/image/upload/e_blur:392,o_83/v1605464797/dresses/annie-spratt-X4l3CjcDvic-unsplash_khi1zk.jpg);
     background-size: cover;
 }
+
+/* | | ---------------------------- GALLERY PAGE PAGE -----------------------------  */
 
 .chriastmas-text {
     color: #ff0000;
@@ -356,6 +383,8 @@ div.col-12-copy-container:hover {
 .gallery img {
     width: 300px;
 }
+
+/* | | ---------------------------- INFO PAGE -----------------------------  */
 
 .contact-container {
     background-color: #ffdb4d;
@@ -516,6 +545,8 @@ td {
     min-height: 200px;
 }
 
+/* | | ---------------------------- FOOTER -----------------------------  */
+
 .footer-container h2 {
     font-weight: 700;
     margin-top: 10px;
@@ -636,6 +667,8 @@ td {
     width: 100%;
     text-align: center;
 }
+
+/* | | ---------------------------- MEDIA -----------------------------  */
 
 @media all and (max-width: 1280px) {
     .site-wide-alert h5 {
