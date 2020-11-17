@@ -258,7 +258,8 @@ ul {
 .card-container .card {
     max-width: 350px;
     border-radius: 0;
-    border: 1px solid #ff6f61;
+    border: 1px solid #8a9a5b;
+    text-align: center;
 }
 
 .card-row {
@@ -303,17 +304,37 @@ ul {
 
 .shop-bg-container {
     max-width: 1300px;
-    max-height: 600px;
+    height: auto;
     margin: auto;
-    background-image: linear-gradient(
-        to right, rgb(204,128,128), rgb(243,226,226)
-    ) ;
+    /* background-image: linear-gradient(
+        to right, rgb(148,164,101), rgb(208,215,187)
+    ) ; */
 }
 .review-paragraph{
     text-align: center;
     vertical-align: middle;
     padding-top: 10%;
+    background: linear-gradient(rgba(247, 244, 244, 0.5), rgba(247, 244, 244, 0.5)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1605637935/Rest%20of%20the%20site/ryunosuke-kikuno-GpNxLuvfNXk-unsplash_lvr0ey.jpg);
+    background-size: cover;
+
 }
+
+.review-paragraph p{
+    padding: 5% 10%;
+    font-size: 150%;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    word-spacing: 2px;
+}
+
+.review-paragraph h2 {
+font-weight: 700;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .shopitems-size:hover {
     transform: scale(1.03);
     cursor: pointer;
@@ -326,7 +347,7 @@ ul {
     padding: 0;
 }
 .top-shopimage img {
-    max-height: 600px;
+    max-height: 800px;
 }
 .shopitems-polaroid img {
     max-width: 260px;
@@ -369,8 +390,9 @@ ul {
 
 .christmas-banner .jumbotron {
     padding: 100px 50px;
-    background-image: url(http://res.cloudinary.com/dbwtdwgnt/image/upload/e_blur:392,o_83/v1605464797/dresses/annie-spratt-X4l3CjcDvic-unsplash_khi1zk.jpg);
+    background-image: linear-gradient(rgba(247, 243, 243, 0.3), rgba(247, 243, 243, 0.3)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605642086/Rest%20of%20the%20site/erin-mckenna-kFbSKhukfIQ-unsplash_1_1_lliva7.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* | | ---------------------------- GALLERY PAGE PAGE -----------------------------  */
@@ -540,7 +562,7 @@ td {
 
 .terms-conditions .card {
     border-radius: 0;
-    border-color: #ff471a;
+    border-color: #8a9a5b;
     margin-bottom: 30px;
     min-height: 200px;
 }
@@ -708,6 +730,12 @@ td {
         letter-spacing: 2.5px;
         font-size: large;
         font-weight: 500;
+    }
+
+    .christmas-banner .jumbotron {
+    padding: 100px 50px;
+    background: linear-gradient(rgba(247, 243, 243, 0.4), rgba(247, 243, 243, 0.4)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605641352/Rest%20of%20the%20site/elfs2_gv3twb.png);
+    background-size: cover;
     }
 
     .footer-container h2 {
