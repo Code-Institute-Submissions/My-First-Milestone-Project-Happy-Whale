@@ -287,6 +287,7 @@ ul {
     letter-spacing: 4px;
     padding-top: 20px;
     padding-bottom: 10px;
+    font-size: clamp(30px, 3vw, 38px);
 }
 
 .main-shop h1::after {
@@ -338,7 +339,7 @@ font-weight: 700;
 
 .shopitems-size:hover {
     transform: scale(1.03);
-    cursor: pointer;
+    
 }
 .shopitems-size:hover input {
     background-color: #cc8080;
@@ -362,6 +363,8 @@ font-weight: 700;
 .shopitems-polaroid {
     justify-content: center;
     display: flex;
+    padding-top: 15px;  
+    padding-bottom: 10px;
 }
 
 
@@ -406,9 +409,15 @@ font-weight: 700;
     font-size: clamp(15px, 1.5vw, 20px);
 }
 
+.shopitems-size p {
+    margin-bottom: 0;
+    font-size: clamp(12px, 1.3vw, 18px);
+
+}
+
 .giftcard-container {
     margin: auto;
-    max-width: 700px;
+    max-width: 1300px;
 }
 
 .giftcard-row {
@@ -419,6 +428,23 @@ font-weight: 700;
     color: #ff471a;
     padding: 20px 0 30px;
 }
+.giftcard-row button {
+    padding: 5px 40px;
+    border: none;
+    background: #ff471a;
+    color: #f4db4b;
+    font-size: clamp(14px, 2vw, 22px);
+}
+
+.giftcard-row h2 {
+    letter-spacing: 4px;
+    font-size: clamp(25px, 3vw, 40px);
+}
+  
+.giftcard-row p {
+    font-size: clamp(15px, 2vw, 25px);
+    letter-spacing: 2px;
+}
 
 .christmas-banner .jumbotron {
     padding: 100px 50px;
@@ -426,6 +452,7 @@ font-weight: 700;
     background-image: linear-gradient(rgba(247, 243, 243, 0.3), rgba(247, 243, 243, 0.3)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605642086/Rest%20of%20the%20site/erin-mckenna-kFbSKhukfIQ-unsplash_1_1_lliva7.png);
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 0;
 }
 
 .christmas-banner .jumbotron h3 {
@@ -444,6 +471,7 @@ font-weight: 700;
     line-height: 1.7;
     word-spacing: 2px;
     color: #ff0000;
+    
 }
 
 /* | | ---------------------------- GALLERY PAGE PAGE -----------------------------  */
@@ -681,7 +709,7 @@ td {
 }
 
 .footer-section a:hover {
-    color: #ffb6c1;
+    color: #cc8080;
     transition: 0.25s ease-out;
     transform: scale(1.2);
 }
@@ -709,7 +737,7 @@ td {
 }
 
 #email-submit:hover {
-    background-color: #ffb6c1;
+    background-color: #cc8080;
     transition: 0.25s linear;
 }
 .social-media i {
@@ -727,7 +755,7 @@ td {
 
 .socialmedia-icons i:hover {
     transform: scale(1.2);
-    color: #ffb6c1;
+    color: #cc8080;
 }
 
 .footer-copyright {
@@ -849,6 +877,15 @@ td {
         .christmas-banner .jumbotron {
         padding: 30px 0;
     }
+
+    .christmas-banner .row {
+        margin: 0;
+    }
+
+    .christmas-banner .container {
+        padding: 0 5px;
+    }
+
     .shopitems-size h4 {
         letter-spacing: 1.5px;
     }
