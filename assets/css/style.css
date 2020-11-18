@@ -306,9 +306,7 @@ ul {
     max-width: 1300px;
     height: auto;
     margin: auto;
-    /* background-image: linear-gradient(
-        to right, rgb(148,164,101), rgb(208,215,187)
-    ) ; */
+    
 }
 .review-paragraph{
     text-align: center;
@@ -316,12 +314,14 @@ ul {
     padding-top: 10%;
     background: linear-gradient(rgba(247, 244, 244, 0.5), rgba(247, 244, 244, 0.5)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1605637935/Rest%20of%20the%20site/ryunosuke-kikuno-GpNxLuvfNXk-unsplash_lvr0ey.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
 .review-paragraph p{
     padding: 5% 10%;
-    font-size: 150%;
+    font-size: clamp(13px, 1.5vw, 22px);
     letter-spacing: 2px;
     line-height: 1.7;
     word-spacing: 2px;
@@ -333,6 +333,7 @@ font-weight: 700;
     padding-top: 20px;
     margin-right: auto;
     margin-left: auto;
+    font-size: clamp(20px, 3vw, 30px);
 }
 
 .shopitems-size:hover {
@@ -349,6 +350,11 @@ font-weight: 700;
 .top-shopimage img {
     max-height: 800px;
 }
+
+.shopitems-container {
+    padding: 30px 0 40px;
+}
+
 .shopitems-polaroid img {
     max-width: 260px;
     height: auto;
@@ -358,23 +364,27 @@ font-weight: 700;
     display: flex;
 }
 
+
 .shop-form {
     min-width: 130px;
-
-    max-width: 200px;
+    max-width: 260px;
+    
 }
 
 .shop-form label {
-    font-family: "Amatic SC", cursive;
-    letter-spacing: 1px;
-    font-size: 20px;
-    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    font-size: clamp(13px, 1.3vw, 17px);
+}
+
+.shop-form select {
+     font-size: clamp(13px, 1.3vw, 17px);
 }
 
 .shop-form input {
     min-width: 130px;
     width: 40vw;
-    max-width: 260px;
+    max-width: 220px;
     text-transform: uppercase;
     font-family: "Amatic SC", cursive;
     margin: 5px 0 10px;
@@ -382,24 +392,65 @@ font-weight: 700;
     background-color: #8a9a5b;
     border-radius: 0;
     border-style: none;
-    font-size: x-large;
+    font-size: large;
     letter-spacing: 3px;
     font-weight: 700;
     color: #ddebe4;
+    outline: 0;
+    
+}
+.shopitems-size h4 {
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    padding-top: 10px;
+    font-size: clamp(15px, 1.5vw, 20px);
+}
+
+.giftcard-container {
+    margin: auto;
+    max-width: 700px;
+}
+
+.giftcard-row {
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: #ffdb4d;
+    color: #ff471a;
+    padding: 20px 0 30px;
 }
 
 .christmas-banner .jumbotron {
     padding: 100px 50px;
+    margin-top: 30px;
     background-image: linear-gradient(rgba(247, 243, 243, 0.3), rgba(247, 243, 243, 0.3)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605642086/Rest%20of%20the%20site/erin-mckenna-kFbSKhukfIQ-unsplash_1_1_lliva7.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.christmas-banner .jumbotron h3 {
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(25px, 3vw, 40px);
+    color: #ff0000;
+}
+
+.christmas-banner .jumbotron p {
+    font-size: clamp(12px, 1.5vw, 22px);
+    letter-spacing: 2px;
+    line-height: 1.7;
+    word-spacing: 2px;
+    color: #ff0000;
 }
 
 /* | | ---------------------------- GALLERY PAGE PAGE -----------------------------  */
 
 .chriastmas-text {
     color: #ff0000;
-    font-size: 25px;
+   
 }
 
 .gallery img {
@@ -699,6 +750,8 @@ td {
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
+    
+
     .footer-container h2 {
         letter-spacing: 1px;
     }
@@ -710,7 +763,7 @@ td {
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .ml-auto,
     .mx-auto {
         margin-left: 0 !important;
@@ -732,14 +785,19 @@ td {
         font-weight: 500;
     }
 
+    .shopitems-polaroid img {
+    max-width: 240px;
+    height: auto;
+    }
+
     .christmas-banner .jumbotron {
-    padding: 100px 50px;
+    padding: 40px 20px;
     background: linear-gradient(rgba(247, 243, 243, 0.4), rgba(247, 243, 243, 0.4)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605641352/Rest%20of%20the%20site/elfs2_gv3twb.png);
     background-size: cover;
     }
 
     .footer-container h2 {
-        font-size: 3.5vw;
+        font-size: 3.5vw ;
     }
 
     .footer-container a {
@@ -768,6 +826,10 @@ td {
         font-size: 4vw;
         line-height: 1.4;
     }
+
+    .christmas-banner .jumbotron {
+        padding: 30px 10px;
+    }
     .footer-container h2 {
         font-size: 6vw;
     }
@@ -782,4 +844,13 @@ td {
     .footer-copyright {
         font-size: 3vw;
     }
+
+    @media (max-width: 350px) {
+        .christmas-banner .jumbotron {
+        padding: 30px 0;
+    }
+    .shopitems-size h4 {
+        letter-spacing: 1.5px;
+    }
+
 }
