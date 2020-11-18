@@ -432,7 +432,7 @@ font-weight: 700;
     padding: 5px 40px;
     border: none;
     background: #ff471a;
-    color: #f4db4b;
+    color: #f4db4d;
     font-size: clamp(14px, 2vw, 22px);
 }
 
@@ -488,12 +488,15 @@ font-weight: 700;
 /* | | ---------------------------- INFO PAGE -----------------------------  */
 
 .contact-container {
-    background-color: #ffdb4d;
+    background-image: url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605729617/Rest%20of%20the%20site/dev-asangbam-vwPSzU5OP6s-unsplash_q3kjiv.jpg);
     opacity: 0.9;
     padding: 35px 25px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
 }
 .contact-container .jumbotron {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 0;
     margin: 0;
     padding: 15px 10px;
@@ -542,14 +545,18 @@ font-weight: 700;
     max-width: 1300px;
 }
 
+.message-section button {
+    padding-bottom: 0;
+    
+}
+
+.message-section button:hover {
+    background-color: #cc8080;
+}
+
 .message-section,
 .map-section {
     padding: 0 15px;
-}
-
-#map {
-    width: 100%;
-    height: 300px;
 }
 
 table {
