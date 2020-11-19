@@ -489,6 +489,13 @@ font-weight: 700;
 
 /* | | ---------------------------- GALLERY PAGE PAGE -----------------------------  */
 
+.jumbotron-gallery  {
+    background-image: url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605794529/Rest%20of%20the%20site/ian-schneider-TamMbr4okv4-unsplash_h9i2wv.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .chriastmas-text {
     color: #ff0000;
    
