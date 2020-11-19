@@ -126,6 +126,10 @@ ul {
 
 /* | | ---------------------------- HOME PAGE -----------------------------  */
 
+.carousel-control-prev-icon {
+    color: #f4db4d;
+}
+
 .carousel-inner {
     max-height: 598px;
     max-width: 1300px;
@@ -279,11 +283,30 @@ ul {
 .card-row {
     justify-content: center;
 }
+.card-row .card-text {
+    height: 60%;
+    padding: 5% 10%;
+    font-size: clamp(13px, 1.5vw, 18px);
+    letter-spacing: 2px;
+    line-height: 1.7;
+    word-spacing: 2px;
+}
+
 .btn-primary {
     width: 100%;
     background-color: #8a9a5b;
     border: none;
     border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: #f4db4d;
+    color: #8a9a5b;
+
+}
+
+.card-row .card-footer {
+    padding: 0;
 }
 
 /* | | ---------------------------- SHOP PAGE -----------------------------  */
@@ -492,14 +515,41 @@ font-weight: 700;
 /* | | ---------------------------- GALLERY PAGE PAGE -----------------------------  */
 
 .jumbotron-gallery  {
-    background-image: linear-gradient(rgba(248, 244, 248, 0.45), rgba(248, 244, 248, 0.45)),  url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605794529/Rest%20of%20the%20site/ian-schneider-TamMbr4okv4-unsplash_h9i2wv.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605794529/Rest%20of%20the%20site/ian-schneider-TamMbr4okv4-unsplash_h9i2wv.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.lead i {
+    color: #fffae6;
 }
 
 .gallery-container {
     max-width: 1500px;
+    padding: 20px;
+    background-color: #f4db4d;
+}
+
+.gallery-container h1{
+    font-weight: 700;
+    text-align: center;
+    color: #fffae6;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: clamp(25px, 3vw, 40px);
+}
+
+.gallery-container p{
+    letter-spacing: 2px;
+    font-size: clamp(14px, 1.5vw, 20px);
+    color: #fffae6;
+    line-height: 1.7;
+    word-spacing: 2px;
+    text-align: center;
+    padding: 0 15px;
 }
 
 .galleryimg-container {
@@ -508,14 +558,51 @@ font-weight: 700;
     margin-left: auto;
     text-align: center;
 }
-.gallery-reviews h2 {
- 
-text-align: center;
+
+.galleryimg-container h2 {
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(20px, 3vw, 30px);
 
 }
 
+.galleryimg-container h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    border-bottom: 1.5px solid #696969;
+}
+
+
+.gallery-reviews h2 {
+text-align: center;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(20px, 3vw, 30px);
+
+}
+.gallery-reviews h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    border-bottom: 1.5px solid #696969;
+}
 .gallery-reviews .card {
     height: 100%;
+    border-radius: 0;
+    max-width: 300px;
+    border: 1px solid #8a9a5b;
+}
+
+.gallery-reviews .col-lg-3 {
+    margin-top: 10px;
 }
 
 .gallery-reviews .card-footer {
@@ -537,13 +624,14 @@ text-align: center;
 
 .gallery-reviews .card-text {
     letter-spacing: 2px;
+    font-size: clamp(12px, 1.5vw, 18px);
+    
 }
-
 
 .imagelist img {
     width: 250px;
+    padding: 10px;
 }
-
 /* | | ---------------------------- INFO PAGE -----------------------------  */
 
 .contact-container {
@@ -594,19 +682,26 @@ text-align: center;
 
 .contact-container .jumbotron p {
     font-size: clamp(12px, 1.5vw, 18px);
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     word-spacing: 2px;
 
 }
 .contact-row {
     display: flex;
+    
 }
+.social a {
+    color: #212529;
+    font-size: clamp(12px, 1.5vw, 18px);
+    letter-spacing: 1px;
+    word-spacing: 2px;
 
+}
 .contact-row .col-md-3 {
     text-align: center;
 }
 
-.contact-row #headIcon {
+.contact-row .headicon {
     border-radius: 50%;
     background-color: #8a9a5b;
     padding: 30px;
@@ -988,14 +1083,28 @@ td {
     }
 }
 
-@media all and (max-width: 768px) {
-    .navbar-collapse .nav-item {
+@media all and (max-width: 990px) {
+    .dropdown-menu {
+        font-size: 90%;
+
+    }
+     .navbar-collapse .nav-item {
         font-size: 100%;
         display: inline-block;
-    
     }
+    .ml-auto,
+    .mx-auto {
+        margin-left: 0 !important;
+    }
+
     .nav-brand {
-    position: absolute;
+    position: absolute; 
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    .nav-brand {
     top: 0;
     right: 50%;
     width: 60px;
@@ -1004,19 +1113,14 @@ td {
     text-align: center;
 }
 
-    
     #header {
         line-height: 20px;
     }
-    .dropdown-menu {
-        font-size: 90%;
-
-    }
     
-    .ml-auto,
-    .mx-auto {
-        margin-left: 0 !important;
-    }
+    .card-row .card-text {
+    height: 70%;
+}
+  
     .shop-alert-content h1 {
         font-size: 5.7vw;
     }
