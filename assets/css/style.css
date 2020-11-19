@@ -296,7 +296,6 @@ ul {
 }
 
 .main-shop h1 {
-    text-transform: uppercase;
     text-align: center;
     letter-spacing: 4px;
     padding-top: 20px;
@@ -520,19 +519,39 @@ font-weight: 700;
 }
 
 .contact-container .jumbotron h1 {
-    letter-spacing: 4px;
     text-align: center;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: clamp(25px, 3vw, 35px);
 }
 
 .contact-container .jumbotron h1::after {
     content: "";
     display: block;
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
     padding-top: 10px;
     border-bottom: 2px solid #696969;
 }
 
+.contact-container .jumbotron h3 {
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: clamp(18px, 2vw, 28px);
+}
+
+.contact-container .jumbotron p {
+    font-size: clamp(12px, 1.5vw, 18px);
+    letter-spacing: 2px;
+    word-spacing: 2px;
+
+}
 .contact-row {
     display: flex;
 }
@@ -556,9 +575,8 @@ font-weight: 700;
 }
 
 .mm-container h3 {
-    font-weight: 700;
+   
     letter-spacing: 4px;
-    color: #696969;
     padding-top: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -571,7 +589,7 @@ font-weight: 700;
     display: block;
     margin: 0 auto;
     width: 40%;
-    border-bottom: 2px solid #696969;
+    border-bottom: 1.5px solid #696969;
     
 }
 
@@ -592,6 +610,7 @@ font-weight: 700;
     border-bottom: 1px solid #696969;
     background-color: #f7e687;
     border-radius: 0;
+    letter-spacing: 2px;
     
 }
 
@@ -602,10 +621,12 @@ font-weight: 700;
     background-color: #f7e687;
     border-radius: 0;
     margin-bottom: 25px;
+     letter-spacing: 2px;
 }
 
 .message-section button {
     padding-bottom: 0;
+     letter-spacing: 2px;
     
 }
 
@@ -619,9 +640,8 @@ font-weight: 700;
 }
 
 .size-head {
-    font-weight: 700;
+    
     letter-spacing: 4px;
-    color: #696969;
     padding-top: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -634,7 +654,7 @@ font-weight: 700;
     margin: 0 auto;
     width: 30%;
     padding-top: 10px;
-    border-bottom: 2px solid #696969;
+    border-bottom: 1.5px solid #696969;
 }
 
 table {
@@ -681,7 +701,7 @@ td {
 }
 
 .shipping-container h3 {
-    font-weight: 700;
+    
     letter-spacing: 4px;
     color: #fffae6;
     padding-top: 20px;
@@ -694,11 +714,10 @@ td {
     margin: 0 auto;
     width: 50%;
     padding-top: 10px;
-    border-bottom: 2px solid #fffae6;
+    border-bottom: 1.5px solid #fffae6;
 }
 
 .shipping-container p {
-    font-size: 150%;
     letter-spacing: 2px;
     color: #fffae6;
     line-height: 1.7;
@@ -710,10 +729,18 @@ td {
     text-align: center;
 }
 
+.policy-container{
+    max-width: 1300px;
+
+}
+
+.policy-container .row {
+    margin: 0;
+}
+
 .privicy-policy h3{
-    font-weight: 700;
+    
     letter-spacing: 4px;
-    color: #696969;
     padding-top: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -726,15 +753,45 @@ td {
     margin: 0 auto;
     width: 30%;
     padding-top: 10px;
-    border-bottom: 2px solid #696969;
+    border-bottom: 1.5px solid #696969;
 }
-
 
 .terms-conditions .card {
     border-radius: 0;
     border-color: #8a9a5b;
     margin-bottom: 30px;
-    min-height: 200px;
+    background-color: #f7e687;
+    letter-spacing: 3px;
+    line-height: 25px;
+    text-align: center;
+    word-spacing: 2px;
+}
+.card-header {
+    background-color: #8a9a5b;
+}
+
+.card-header button {
+    width: 100%;
+    border: none;
+    text-decoration: none;
+}
+
+.btn-link{
+    text-decoration: none;
+    color: #f7e687;
+    font-size: 20px;
+}
+.btn-link, .btn-link:focus {
+    text-decoration: none;
+}
+.btn-link:hover {
+    transform: scale(1.1);
+    color: #f7e687;
+    text-decoration: none;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
 }
 
 /* | | ---------------------------- FOOTER -----------------------------  */
@@ -997,6 +1054,12 @@ td {
     .christmas-banner .jumbotron {
         padding: 30px 10px;
     }
+
+.contact-row #headIcon {
+    padding: 15%;
+}
+
+
 
     .message-section,
 .map-section {
