@@ -13,8 +13,13 @@ body {
   font-family: "Open Sans Condensed", sans-serif;
   position: relative;
   min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 h2,
@@ -146,7 +151,9 @@ ul {
 
 #shop-container #shop-alert {
   padding: 20px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .shop-alert-content h1 {
@@ -173,18 +180,24 @@ ul {
 
 .shop-banner img {
   height: auto;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .shop-banner .col-12-copy-container:hover {
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .shop-container {
   margin: 0;
   max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .shop-banner a {
@@ -256,7 +269,9 @@ ul {
 }
 
 #our-service {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .our-service-content h1 {
@@ -289,7 +304,9 @@ ul {
 }
 
 .card-row {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card-row .card-text {
@@ -320,9 +337,12 @@ ul {
 /* | | ---------------------------- SHOP PAGE -----------------------------  */
 
 .shopitems-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   max-width: 100%;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 0;
 }
 
@@ -357,6 +377,7 @@ ul {
   text-align: center;
   vertical-align: middle;
   padding-top: 10%;
+  background: -webkit-linear-gradient(rgba(247, 244, 244, 0.5), rgba(247, 244, 244, 0.5)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1605637935/Rest%20of%20the%20site/ryunosuke-kikuno-GpNxLuvfNXk-unsplash_lvr0ey.jpg);
   background: linear-gradient(rgba(247, 244, 244, 0.5), rgba(247, 244, 244, 0.5)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1605637935/Rest%20of%20the%20site/ryunosuke-kikuno-GpNxLuvfNXk-unsplash_lvr0ey.jpg);
   background-size: cover;
   background-position: center;
@@ -381,7 +402,8 @@ ul {
 }
 
 .shopitems-size:hover {
-  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .shopitems-size:hover input {
@@ -406,7 +428,11 @@ ul {
 }
 
 .shopitems-polaroid {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 15px;
   padding-bottom: 10px;
@@ -492,6 +518,7 @@ ul {
 .christmas-banner .jumbotron {
   padding: 100px 50px;
   margin-top: 30px;
+  background-image: -webkit-linear-gradient(rgba(247, 243, 243, 0.3), rgba(247, 243, 243, 0.3)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605642086/Rest%20of%20the%20site/erin-mckenna-kFbSKhukfIQ-unsplash_1_1_lliva7.png);
   background-image: linear-gradient(rgba(247, 243, 243, 0.3), rgba(247, 243, 243, 0.3)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605642086/Rest%20of%20the%20site/erin-mckenna-kFbSKhukfIQ-unsplash_1_1_lliva7.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -519,6 +546,7 @@ ul {
 /* | | ---------------------------- GALLERY PAGE PAGE -----------------------------  */
 
 .jumbotron-gallery {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605794529/Rest%20of%20the%20site/ian-schneider-TamMbr4okv4-unsplash_h9i2wv.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605794529/Rest%20of%20the%20site/ian-schneider-TamMbr4okv4-unsplash_h9i2wv.jpg);
   background-size: cover;
   background-position: center;
@@ -651,6 +679,8 @@ ul {
 }
 
 .contact-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -689,6 +719,8 @@ ul {
 }
 
 .contact-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -712,6 +744,8 @@ ul {
 }
 
 .mm-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: auto;
   max-width: 1300px;
@@ -831,6 +865,7 @@ td {
 }
 
 .shipping-container {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605476247/Rest%20of%20the%20site/Screenshot_2020-11-10_at_22.50.07_qtr3uw.png);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605476247/Rest%20of%20the%20site/Screenshot_2020-11-10_at_22.50.07_qtr3uw.png);
   background-size: cover;
   margin-top: 30px;
@@ -925,7 +960,8 @@ td {
 }
 
 .btn-link:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   color: #f7e687;
   text-decoration: none;
 }
@@ -950,30 +986,53 @@ td {
 }
 
 .footer-small {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .footer-section-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footer-small-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footer-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footer-small a {
@@ -992,14 +1051,18 @@ td {
 
 .footer-small a:hover {
   color: #ffb6c1;
+  -webkit-transition: 0.25s ease-out;
   transition: 0.25s ease-out;
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .footer-section a:hover {
   color: #cc8080;
+  -webkit-transition: 0.25s ease-out;
   transition: 0.25s ease-out;
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 #email-submit {
@@ -1021,12 +1084,25 @@ td {
   margin-top: 10px;
 }
 
+#footer-email::-webkit-input-placeholder {
+  color: #d3d3d3;
+}
+
+#footer-email::-moz-placeholder {
+  color: #d3d3d3;
+}
+
+#footer-email:-ms-input-placeholder {
+  color: #d3d3d3;
+}
+
 #footer-email::placeholder {
   color: #d3d3d3;
 }
 
 #email-submit:hover {
   background-color: #cc8080;
+  -webkit-transition: 0.25s linear;
   transition: 0.25s linear;
 }
 
@@ -1039,13 +1115,16 @@ td {
 }
 
 .socialmedia-icons {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: auto;
   margin-left: auto;
 }
 
 .socialmedia-icons i:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   color: #cc8080;
 }
 
@@ -1164,6 +1243,7 @@ td {
 
   .christmas-banner .jumbotron {
     padding: 40px 20px;
+    background: -webkit-linear-gradient(rgba(247, 243, 243, 0.4), rgba(247, 243, 243, 0.4)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605641352/Rest%20of%20the%20site/elfs2_gv3twb.png);
     background: linear-gradient(rgba(247, 243, 243, 0.4), rgba(247, 243, 243, 0.4)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605641352/Rest%20of%20the%20site/elfs2_gv3twb.png);
     background-size: cover;
   }
@@ -1245,7 +1325,8 @@ td {
     .christmas-banner .jumbotron {
         padding: 30px 0;
   }
-
+   
+}
   .christmas-banner .row {
     margin: 0;
   }
