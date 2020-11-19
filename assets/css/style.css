@@ -490,10 +490,47 @@ font-weight: 700;
 /* | | ---------------------------- GALLERY PAGE PAGE -----------------------------  */
 
 .jumbotron-gallery  {
-    background-image: url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605794529/Rest%20of%20the%20site/ian-schneider-TamMbr4okv4-unsplash_h9i2wv.jpg);
+    background-image: linear-gradient(rgba(248, 244, 248, 0.45), rgba(248, 244, 248, 0.45)),  url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605794529/Rest%20of%20the%20site/ian-schneider-TamMbr4okv4-unsplash_h9i2wv.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.gallery-container {
+    max-width: 1500px;
+}
+
+.galleryimg-container {
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+
+.gallery-reviews .card-footer {
+    background-color: white; 
+    border-top: none;
+    text-align: center;
+    color: #8a9a5b;
+}
+
+.gallery-reviews {
+    display: flex;
+}
+
+.gallery-reviews .card-body {
+    padding: 10px 15px;
+   
+}
+
+.gallery-reviews h5 {
+    letter-spacing: 2px;
+}
+
+.gallery-reviews .card-text {
+    letter-spacing: 2px;
 }
 
 .chriastmas-text {
@@ -501,8 +538,8 @@ font-weight: 700;
    
 }
 
-.gallery img {
-    width: 300px;
+.imagelist img {
+    width: 250px;
 }
 
 /* | | ---------------------------- INFO PAGE -----------------------------  */
