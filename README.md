@@ -29,18 +29,12 @@ Environment just as comfort of the clothes are very important for the seller and
 
 
 ## Wireframes: 
-![Colour Scheme]
-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605863809/Rest%20of%20the%20site/My_Post_hdrhxc.png)
-![Home page - first wireframe]
-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605834658/Rest%20of%20the%20site/IMG_8462_loh3ew.jpg) 
-![Shop page - first wireframe]
-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605834658/Rest%20of%20the%20site/IMG_8463_pxdgif.jpg)
-![Contact us page - first wireframe]
-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605834658/Rest%20of%20the%20site/IMG_8464_ct2cbo.jpg)
-![Our mission page - first wireframe]
-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605834658/Rest%20of%20the%20site/IMG_8465_eiwwmz.jpg)
-![Mobile view- first wireframe]
-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605834659/Rest%20of%20the%20site/IMG_8466_z56nhj.jpg)
+![Colour Scheme](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605863809/Rest%20of%20the%20site/My_Post_hdrhxc.png)
+![Home page - first wireframe](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605834658/Rest%20of%20the%20site/IMG_8462_loh3ew.jpg) 
+![Shop page - first wireframe](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605834658/Rest%20of%20the%20site/IMG_8463_pxdgif.jpg)
+![Contact us page - first wireframe](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605834658/Rest%20of%20the%20site/IMG_8464_ct2cbo.jpg)
+![Our mission page - first wireframe](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605834658/Rest%20of%20the%20site/IMG_8465_eiwwmz.jpg)
+![Mobile view- first wireframe](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605834659/Rest%20of%20the%20site/IMG_8466_z56nhj.jpg)
 
 ### Header
 
@@ -163,8 +157,9 @@ The website was tested all the way through, using Chrome dev tools, and made sur
 - Footer: The original footer did not include the accordion, but then it wasn’t displayed nice on smaller devices and it was unreadable. I found accordion on Bootstrap, but it needs JavaScript for full functioning. In the end I decided as I haven't learned JavaScript yet I will make it work with the grid section, so I generated two different footers and applied a d-none to each of them to display on the right device size. 
 
 #### Image testing screenshots 
+
 	![Get in Touch background testing]
-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864270/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.23.23_fkox4n.png)
+    (https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864270/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.23.23_fkox4n.png)
 
 ![Get in Touch background image testing 2]
 (https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864320/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.24.28_tk0zaq.png)
