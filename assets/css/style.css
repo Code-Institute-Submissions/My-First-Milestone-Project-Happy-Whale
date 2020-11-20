@@ -1084,6 +1084,7 @@ td {
   margin-top: 10px;
 }
 
+
 #footer-email::-webkit-input-placeholder {
   color: #d3d3d3;
 }
@@ -1105,6 +1106,7 @@ td {
   -webkit-transition: 0.25s linear;
   transition: 0.25s linear;
 }
+
 
 .social-media i {
   height: 45px;
