@@ -201,7 +201,7 @@ Click clone or download green button
 Click on the copy icon at the end of the https:// link
 Open the terminal
 Navigate to the location where the repository is going to be stored 
-With the repository URL enter the following $ git clone <and the URL>
+With the repository URL enter the following $ git clone https://zitabalint.github.io/My-First-Milestone-Project-Happy-Whale/
 Press enter and the local repository was created  
 
 ## Credits
