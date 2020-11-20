@@ -309,7 +309,7 @@ ul {
           justify-content: center;
 }
 
-.card-row .card-text {
+.ourservice-row .card-text {
   height: 60%;
   padding: 5% 10%;
   font-size: clamp(13px, 1.5vw, 18px);
@@ -330,7 +330,7 @@ ul {
   color: #8a9a5b;
 }
 
-.card-row .card-footer {
+.ourservice-row .card-footer {
   padding: 0;
 }
 
