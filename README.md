@@ -158,17 +158,13 @@ The website was tested all the way through, using Chrome dev tools, and made sur
 
 #### Image testing screenshots 
 
-	![Get in Touch background testing]
-    (https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864270/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.23.23_fkox4n.png)
+![Get in Touch background testing](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864270/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.23.23_fkox4n.png)
 
-![Get in Touch background image testing 2]
-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864320/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.24.28_tk0zaq.png)
+![Get in Touch background image testing 2](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864320/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.24.28_tk0zaq.png)
 
-![Christmas banner background image testing]
-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864327/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.25.40_faupv3.png)
+![Christmas banner background image testing](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864327/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.25.40_faupv3.png)
 
-![Small screen Christmas banner background image testing]
-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864335/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.26.19_yi1tx3.png)
+![Small screen Christmas banner background image testing](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864335/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.26.19_yi1tx3.png)
 
 ## Assets
 
