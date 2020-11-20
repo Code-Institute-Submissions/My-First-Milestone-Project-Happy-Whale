@@ -6,18 +6,18 @@ Their only asking was to build something simple and clear, but still represents 
 ## Who is it for?
 
 ### My website is for busy parents:
-Able to navigate easily, find categories of clothing, sizes and prints as quick as possible
-Eye catching images, which grab their attention and standing out from the already large market
-An Our Mission section when the shopper can bond with the seller and can feel their passion about ethical clothing plastic pollution
-Our service section to able to show, the seller would go out of their way and very easily approachable if there are any special needs or sizes for the little ones 
-Large images, easy to press buttons to add to baskets or select different prints or sizes for quicker checkout
-Special prints section for seasonal clothes, so parents can be always up to the latest season
-Honest and latest reviews which shows the quality of the products
-Able to see not just the products but the products on other children for better visualization and fits
-Easy to approach communications, where the seller not just giving the opportunity to people to directly message them, but also encourages users to upload their pictures of their babies and take pride in the already large and existing social media platforms
-A clear and accurate size guide when parents can take measurements but also giving the chance to send their own size requests
-Giving sections with terms and conditions without interrupting the fun part of the website, but making sure these informations are well displayed 
-Able to sign up for newsletters, for further informations, promotions and new design prints 
+- Able to navigate easily, find categories of clothing, sizes and prints as quick as possible
+- Eye catching images, which grab their attention and standing out from the already large market
+- An Our Mission section when the shopper can bond with the seller and can feel their passion about ethical clothing plastic pollution
+- Our service section to able to show, the seller would go out of their way and very easily approachable if there are any special needs or sizes for the little ones 
+- Large images, easy to press buttons to add to baskets or select different prints or sizes for quicker checkout
+- Special prints section for seasonal clothes, so parents can be always up to the latest season
+- Honest and latest reviews which shows the quality of the products
+- Able to see not just the products but the products on other children for better visualization and fits
+- Easy to approach communications, where the seller not just giving the opportunity to people to directly message them, but also encourages users to upload their pictures of their babies and take pride in the already large and existing social media platforms
+- A clear and accurate size guide when parents can take measurements but also giving the chance to send their own size requests
+- Giving sections with terms and conditions without interrupting the fun part of the website, but making sure these informations are well displayed 
+- Able to sign up for newsletters, for further informations, promotions and new design prints 
 
 ### The website is also for people who would shop baby clothes as a present:
 Gift Card option offering and displayed in several section on the website 
@@ -82,7 +82,7 @@ The main section of the shop page is divided into 6 different categories: Leggin
 
 This page starts with a tag us on social media jumbotron, and inside the paragraph there are the facebook and instagram font awesome icons. Underneath there is the review section with 4 card-deck responsive cards. On the bottom of each card there is a star display of the rating of the review. This can provide feedback to new customers. Under the review section is the gallery with amazing images for those, who would like to see the clothes on real “models”. Fancybox was used to display the images in a slidable gallery. 
 
-#### Info page 
+##### Info page 
 
 #### Head of the info page
 1300p wide container with a great bright background image and opacity over the jumbotron. It contains address, phone number, email address and social media clickable links to the actual sides. 
