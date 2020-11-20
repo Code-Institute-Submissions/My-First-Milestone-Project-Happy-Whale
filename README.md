@@ -91,8 +91,8 @@ Gives a better understanding to the user of the actual measurements of the items
 
 #### Return and privacy policy and Terms and Conditions
 
-The return section has a background of image of one of the prints and a dark opacity for better readability. 
-Terms and Conditions and Privacy policy displayed in a accordian card, for the better user experience they are large, asy to find but at the same time they are discrete. 
+- The return section has a background of image of one of the prints and a dark opacity for better readability. 
+- Terms and Conditions and Privacy policy displayed in a accordian card, for the better user experience they are large, asy to find but at the same time they are discrete. 
 
 ### Footer
 
@@ -104,13 +104,13 @@ Each item hovers over to a different colour and with an exception of the newslet
 
 ## Features
 
-Navbar and burger button: easily navigate navbar and all linked to the correct page. It allows to display header contents in a much nicer and clearer way.
-Caresoule : located on the home page just under navbar and displays new arrivals
-CTA buttons: allow user to navigate between page., Located on home page our service category, shop page shop items, gift card section and info page terms and conditions section.
-CTC text: allow users to navigate different pages of the site, they are located in the home page nav bar, drop down and shop by category and also in the footer sections. 
-Accordion: allow to toggle content and display the text in a more discrete way, although when clicked text is displayed in a full context. Accordion was used in footer and in terms and conditions sections. 
-Social media icons: they are linked directly to the existing websites. They are located in the footer and info page. They are target=”_blanks so it takes the user to a separate page. 
-Fancybox: allow the user to display gallery images in a larger form and read the caption for the picture. Fancybox was used at the Gallery page gallery section. 
+- Navbar and burger button: easily navigate navbar and all linked to the correct page. It allows to display header contents in a much nicer and clearer way.
+- Caresoule : located on the home page just under navbar and displays new arrivals
+- CTA buttons: allow user to navigate between page., Located on home page our service category, shop page shop items, gift card section and info page terms and conditions section.
+- CTC text: allow users to navigate different pages of the site, they are located in the home page nav bar, drop down and shop by category and also in the footer sections. 
+- Accordion: allow to toggle content and display the text in a more discrete way, although when clicked text is displayed in a full context. Accordion was used in footer and in terms and conditions sections. 
+- Social media icons: they are linked directly to the existing websites. They are located in the footer and info page. They are target=”_blanks so it takes the user to a separate page. 
+- Fancybox: allow the user to display gallery images in a larger form and read the caption for the picture. Fancybox was used at the Gallery page gallery section. 
 
 ## Upcoming features
 
@@ -168,34 +168,34 @@ The website was tested all the way through, using Chrome dev tools, and made sur
 
 ## Assets
 
-GitHub - used GitPod as an editor 
-HTML
-CSS
-jQuery - used for Fancybox, display images in a slideshow, dropdown menu in info page, accordion on info page and footer 
-Bootstrap - used adding responsiveness and also used for some of the layouts Card elements, Form sections, Carousel, Toggle navbar, Drop down menu and Accordion 
-Font Awesome - Through the pages used font awesome icons for social media icons in footer and icons for info page top container 
-Google Fonts - Used Google Fonts; Open Sans and Amatic SC
-Google Maps - embedded google map to Info Page 
-Termly.io: copied one of the free terms and conditions templates 
-Termsfeed.com: Copied a part of one of the free download privacy policy templates  
-Code institute tutorial: Navalert bar on home page 
+- GitHub - used GitPod as an editor 
+- HTML
+- CSS
+- jQuery - used for Fancybox, display images in a slideshow, dropdown menu in info page, accordion on info page and footer 
+- Bootstrap - used adding responsiveness and also used for some of the layouts Card elements, Form sections, Carousel, Toggle navbar, Drop down menu and Accordion 
+- Font Awesome - Through the pages used font awesome icons for social media icons in footer and icons for info page top container 
+- Google Fonts - Used Google Fonts; Open Sans and Amatic SC
+- Google Maps - embedded google map to Info Page 
+- Termly.io: copied one of the free terms and conditions templates 
+- Termsfeed.com: Copied a part of one of the free download privacy policy templates  
+- Code institute tutorial: Navalert bar on home page 
 
 ## Outsourced Media 
-Cloudinary - used to style images, all images are stored and deployed from the caching server
-Fancybox - used to able to make gallery page image section 
-Unsplash - background images were downloaded from Unsplash website 
+- Cloudinary - used to style images, all images are stored and deployed from the caching server
+- Fancybox - used to able to make gallery page image section 
+- Unsplash - background images were downloaded from Unsplash website 
 
 
 ## Deployments 
 
-My project was built and it is stored on Github 
+- My project was built and it is stored on Github 
 I created a master branch for the project in the following way:
 Go to your GitHub account and select “New Repository” from the drop down menu
 Next to the owner after the / add a short name to repository
 Select add README file and add .gitignore file 
 Create repository
 
-If you wish to clone:
+- If you wish to clone:
 On GitHub navigate to the main page of the repository
 Click clone or download green button 
 Click on the copy icon at the end of the https:// link
