@@ -164,7 +164,7 @@ The website was tested all the way through, using Chrome dev tools, and made sur
 
 ![Christmas banner background image testing](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864327/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.25.40_faupv3.png)
 
-![Small screen Christmas banner background image testing](https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864335/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.26.19_yi1tx3.png)
+![Small screen Christmas banner background image testing]-(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1605864335/Rest%20of%20the%20site/Screenshot_2020-11-19_at_23.26.19_yi1tx3.png)
 
 ## Assets
 
@@ -211,11 +211,11 @@ Press enter and the local repository was created
 All the images displayed from Happy Whale Clothing were given the right to use in the project by founders Emily and Victoria Bradley. The rest of the background images were downloaded from https://unsplash.com. All images are stored and cached from the Cloudinary website. 
 
 ### Outsourced  
-Toggle navbar and burger button was originally from [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) and was altered for the page’s needs. 
-Dropdown bar was [Bootsprap](https://getbootstrap.com/docs/4.0/components/dropdowns/) and was styled and altered for the page’s needs. 
-Home page whale background image was not copied but helped to styled by the following video [Kevin Powell: Background images](https://www.youtube.com/watch?v=33IinMVJf-M)
-Bottom of the home page Our Service cards were taken from [Bootstrap](https://getbootstrap.com/docs/4.0/components/card/) and styled and altered for the page’s needs. 
-Message us for was originated from bootstrap but was put together from 2 different code form [Form from Bootstrap](https://getbootstrap.com/docs/4.0/components/forms/) and was change several times and styled for the page’s needs 
-Review card section was originally from [Bootstarp](https://getbootstrap.com/docs/4.0/components/card/) but was adjusted and it was added a grid system to it which also took the original purpose of that specific deck-card code. 
-Visual inspiration of the website was influenced by https://www.joules.com/ 
+- Toggle navbar and burger button was originally from [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) and was altered for the page’s needs. 
+- Dropdown bar was [Bootsprap](https://getbootstrap.com/docs/4.0/components/dropdowns/) and was styled and altered for the page’s needs. 
+- Home page whale background image was not copied but helped to styled by the following video [Kevin Powell: Background images](https://www.youtube.com/watch?v=33IinMVJf-M)
+- Bottom of the home page Our Service cards were taken from [Bootstrap](https://getbootstrap.com/docs/4.0/components/card/) and styled and altered for the page’s needs. 
+- Message us for was originated from bootstrap but was put together from 2 different code form [Form from Bootstrap](https://getbootstrap.com/docs/4.0/components/forms/) and was change several times and styled for the page’s needs 
+- -Review card section was originally from [Bootstarp](https://getbootstrap.com/docs/4.0/components/card/) but was adjusted and it was added a grid system to it which also took the original purpose of that specific deck-card code. 
+- Visual inspiration of the website was influenced by https://www.joules.com/ 
 
